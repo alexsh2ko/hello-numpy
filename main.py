@@ -1,4 +1,5 @@
 import hello
+iport time
 hello.hello('Alex')
 # The standard way to import NumPy:
 import numpy as np
@@ -20,3 +21,5 @@ x.max(axis=1)
 rng = np.random.default_rng()
 samples = rng.normal(size=2500)
 print(samples)
+a = input("Press enter!")
+time.sleep(20)
